@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+	<Metadata>
+		<Identity Id="WebMatrixManIDE..f6f4388d-3c7b-441b-a91e-1be6e6770049" Version="1.0" Language="ja-JP" Publisher="buchizo" />
+		<DisplayName>WebMatrixManIDE</DisplayName>
+		<Description xml:space="preserve">いつもWMWM、あなたのVisual Studioに這い寄る混沌、WebMatrixMan!</Description>
+		<Icon>logo.png</Icon>
+		<Tags>theme, Text Editor, 痛IDE拡張, Background, WebMatrixMan</Tags>
+	</Metadata>
+	<Installation>
+		<InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+	</Installation>
+	<Dependencies>
+		<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+	</Dependencies>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+	</Assets>
+</PackageManifest>
